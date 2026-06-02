@@ -124,8 +124,10 @@ nav > ul > li:hover > a {
 .slide ul .s3 {
   background: url("/images/s3.jpg") no-repeat center/cover;
 }
+
 .con {
   height: 200px;
+  display: flex;
 }
 
 .notice {
@@ -134,6 +136,10 @@ nav > ul > li:hover > a {
 
 .gall {
   width: 300px;
+}
+
+.gall ul {
+  display: flex;
 }
 
 .go {

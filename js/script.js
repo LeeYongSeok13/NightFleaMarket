@@ -19,4 +19,12 @@ $(function () {
   }
 
   setInterval(slide, 3000);
+
+  // 팝업
+  $(".pop").click(function () {
+    $(".popup").show();
+  });
+  $(".close button").click(function () {
+    $(".popup").hide();
+  });
 });
